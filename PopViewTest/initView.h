@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  initView.h
 //  PopViewTest
 //
 //  Created by Mac on 13-5-30.
@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "initView.h"
-@interface ViewController : UIViewController
-@property(retain,nonatomic)initView *initview;
+
+@interface initView : UIView
+{
+    UIView *aView;
+}
 @end

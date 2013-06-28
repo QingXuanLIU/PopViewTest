@@ -23,6 +23,7 @@
 		0412FBC317572737004793E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0412FB9E17572736004793E2 /* Foundation.framework */; };
 		0412FBCB17572737004793E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0412FBC917572737004793E2 /* InfoPlist.strings */; };
 		0412FBCE17572737004793E2 /* PopViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412FBCD17572737004793E2 /* PopViewTestTests.m */; };
+		0412FBDD175727F2004793E2 /* initView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412FBDC175727F2004793E2 /* initView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		0412FBCA17572737004793E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0412FBCC17572737004793E2 /* PopViewTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopViewTestTests.h; sourceTree = "<group>"; };
 		0412FBCD17572737004793E2 /* PopViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopViewTestTests.m; sourceTree = "<group>"; };
+		0412FBDB175727F2004793E2 /* initView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = initView.h; sourceTree = "<group>"; };
+		0412FBDC175727F2004793E2 /* initView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = initView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				0412FBAC17572736004793E2 /* AppDelegate.m */,
 				0412FBB417572736004793E2 /* ViewController.h */,
 				0412FBB517572737004793E2 /* ViewController.m */,
+				0412FBDB175727F2004793E2 /* initView.h */,
+				0412FBDC175727F2004793E2 /* initView.m */,
 				0412FBB717572737004793E2 /* ViewController.xib */,
 				0412FBA317572736004793E2 /* Supporting Files */,
 			);
@@ -273,6 +278,7 @@
 				0412FBA917572736004793E2 /* main.m in Sources */,
 				0412FBAD17572736004793E2 /* AppDelegate.m in Sources */,
 				0412FBB617572737004793E2 /* ViewController.m in Sources */,
+				0412FBDD175727F2004793E2 /* initView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
